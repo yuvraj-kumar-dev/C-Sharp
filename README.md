@@ -1,2 +1,3 @@
-# C-Sharp
-Repo for learning C#
+# C# Learning Repository
+
+I have made this repository to document my C# learning. It includes **Theory** and **Code Examples**

@@ -33,3 +33,23 @@ power = power - 1;
 
 Console.WriteLine("Health: " + health + ", Money: " + money + ", Power: " + power);
 
+// Excercise 1 : Define speed variable
+
+int speed = 5;
+
+Console.WriteLine(speed);
+
+
+//Type conversion
+
+int i = (int)13.5f;
+Console.WriteLine(i);
+
+int health1 = 1;
+int healthmax = 10;
+
+Console.WriteLine(health1 / healthmax);
+
+Console.WriteLine((float)health1 / healthmax);
+
+

@@ -16,16 +16,20 @@ class Program
 
         Player.sayHello();
 
+        Player.name = "newName";  //public access modifier + static 
+
+        Player.sayHello();
+
         // Output:Hello Default!!
         //         Player Yuvraj created!
         //         Player Ram created!
         //         Hello Ram!!
-        
+
     }
 
     class Player
     {
-        static string name = "Default";
+        public static string name = "Default";
 
         public Player(string name)
         {

@@ -10,13 +10,19 @@ class Program
 
         Test test = new Test();
 
+        Test newTest = new Test();
+        newTest.sayHello();  //sayHello was defined as public
+
 
     }
 
     class Test
     {
 
-        public Test(){
+        static string name = "testBot"; //private
+
+        public Test()
+        {
 
             sayMessage();
 
@@ -33,6 +39,11 @@ class Program
         {
             Console.WriteLine("This is a Test");
 
+        }
+
+        public void sayHello()
+        {
+            Console.WriteLine("Hello!");
         }
         }
     }

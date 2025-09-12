@@ -12,6 +12,7 @@ class Program
 
         Player Ram = new Player("Ram");
         Ram.sayHello();
+        Player.name = "Yuvraj";
 
     }
 
@@ -19,7 +20,7 @@ class Program
     {
 
         public int age = 19;
-        string name = "Player";
+        string name = "Player"; //private + non static
         public Player(string name="Player")
         {
             this.name = name;

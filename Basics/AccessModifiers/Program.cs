@@ -2,6 +2,10 @@
 
 class Program
 {
+
+    Player Yuvraj = new Player();
+
+
     static void Main(string[] args)
     {
         //Access Modifiers manage how accessible a certain variable/ function should be
@@ -19,7 +23,7 @@ class Program
     class Test
     {
 
-        static string name = "testBot"; //private
+        string name = "testBot"; //private
 
         public Test()
         {
@@ -44,6 +48,18 @@ class Program
         public void sayHello()
         {
             Console.WriteLine("Hello!");
+        }
+    }
+
+    private class Player
+    {
+        private string playerName = "Alex";
+
+        private void greet(string name)
+        {
+            this.playerName = name;
+            Console.WriteLine($"Hello {name}");
+
         }
         }
     }

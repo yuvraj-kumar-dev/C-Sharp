@@ -295,3 +295,6 @@ class Program
     }
 }
 ```
+
+Use `dotnet new console -o projName` to create a new program
+Use `dotnet run .\Program.cs` to run the program
